@@ -93,24 +93,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -301,6 +283,45 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/* Alex's styles */
+
+.main-content {
+    color:white;
+    background: black;
+    display: inline-block;
+    opacity: 0.5;
+    padding: 22px;
+    height: 100%;
+}
+
+.main-content ul {
+    list-style: none;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.main-content a:link {
+    color: white;
+}
+
+/* visited link */
+.main-content a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.main-content a:hover {
+    color: white;
+}
+
+/* selected link */
+.main-content a:active {
+    color: white;
 }
 
 /* tubular override for mobile */
