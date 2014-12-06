@@ -324,6 +324,9 @@ textarea {
     color: white;
 }
 
+body {
+    background: black;
+}
 /* tubular override for mobile */
 @media handheld, only screen and (max-width: 767px) {
     #tubular-container,
@@ -338,8 +341,11 @@ textarea {
     }
 
     .main-content {
-        opacity: 0;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
     }
+
 
     #wrapper {
         background: black;
