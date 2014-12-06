@@ -330,10 +330,18 @@ textarea {
     #tubular-player,
     #tubular-shield,
     #video-controls { 
-    display: none;
-    width: 0;
-    height: 0;
-    position: fixed;
-    top: -5000px;
+        display: none;
+        width: 0;
+        height: 0;
+        position: fixed;
+        top: -5000px;
+    }
+
+    .main-content {
+        opacity: 0;
+    }
+
+    #wrapper {
+        background: black;
     }
 }
