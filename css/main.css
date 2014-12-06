@@ -302,3 +302,17 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/* tubular override for mobile */
+@media handheld, only screen and (max-width: 767px) {
+    #tubular-container,
+    #tubular-player,
+    #tubular-shield,
+    #video-controls { 
+    display: none;
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: -5000px;
+    }
+}
