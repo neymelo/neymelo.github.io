@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>brooklyntango // tango classes, workshops, and milongas in in brooklyn new york</title>
         <meta name="description" content="Learn to dance tango in Brooklyn New York.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,19 +22,58 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '349485658567563',
+              xfbml      : true,
+              version    : 'v2.2'
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "http://connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <h1>brooklyntango</h1>
+
+        <h3>Launching Tuesday January 6th, 2015</h3>
+
+        <h5>Drop Ney a line</h5>
+
+        <ul>
+            <li><a href="tel:917-736-5908">917.736.5908</a></li>
+            <li><a href="mailto:ney@brooklyntango.com">ney@brooklyntango.com</a></li>
+        </ul>
+
+        <div
+          class="fb-like"
+          data-share="true"
+          data-width="450"
+          data-show-faces="true">
+        </div>
+
+        <div id="fb-root"></div>
+        
+        
+
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+         <script src="js/plugins.js"></script>
+         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
