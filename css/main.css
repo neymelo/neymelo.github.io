@@ -341,13 +341,14 @@ body {
     }
 
     .main-content {
-        opacity: 1;
         height: 100%;
         min-width: 255px;
+        opacity: 0.8;
     }
 
-
+    body {
+        background-image: url(../img/bck.png);
+    }
     #wrapper {
-        background: black;
     }
 }
