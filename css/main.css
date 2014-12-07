@@ -352,3 +352,9 @@ body {
     #wrapper {
     }
 }
+
+@media handheld, only screen and (max-width: 500px) {
+    .main-content {
+        width: 100%;
+    }
+}
