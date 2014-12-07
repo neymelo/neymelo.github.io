@@ -299,6 +299,7 @@ textarea {
 
 .main-content ul {
     list-style: none;
+    padding-left:0;
 }
 
 .main-content a {
